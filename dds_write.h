@@ -365,6 +365,7 @@ namespace dds_write
 		if (height == 0)
 		{
 			h.header10.resourceDimension = D3D10_RESOURCE_DIMENSION_TEXTURE1D;
+			h.header.dwHeight = 1;
 		}
 		if (mip_levels > 1)
 		{
